@@ -241,8 +241,9 @@ class FileIterator implements Iterator
      *
      * @param   string      $source
      * @return  resource
+     * @access  private
      */
-    protected function _openPointer($source = null)
+    private function _openPointer($source = null)
     {
         if ($source !== null) $this->_source = $source;
 
@@ -264,8 +265,9 @@ class FileIterator implements Iterator
      * reset all loop variables
      *
      * @return  void
+     * @access  private
      */
-    protected function _rewindPointer()
+    private function _rewindPointer()
     {
         if (!is_resource($this->_filePointer)) {
 			if ($this->_verbose) echo "Stream connection closed, a stream connection request is going to be sent.\n";
