@@ -80,7 +80,7 @@ class FileIterator implements Iterator
      * @var     bool
      * @access  private
      */
-    private $_verbose = true;
+    private $_verbose = false;
 
     /**
      * File pointer.
@@ -235,6 +235,35 @@ class FileIterator implements Iterator
     {
         return $this->_valid;
     }
+
+
+    /**
+     * Checks whether current file row is empty
+     *
+     * @param   bool $whitespaceAsChar
+     * @return  bool
+     */
+    public function isEmpty($whitespaceAsChar = true)
+    {
+        $line = $this->current();
+        if (!$whitespaceAsChar) $line = trim($line);
+        return strlen($line) == 0;
+    }
+
+    /**
+     * Checks whether current file row matches given regexp pattern
+     *
+     * If $matches is provided, then it is filled with the results of search.
+     *
+     * @param   string  $pattern
+     * @param   string  $matches
+     * @return  bool
+     */
+    public function match($pattern, &$matches = null)
+    {
+		return preg_match($pattern, $this->current(), $matches);
+    }
+
 
     /**
      * Opens and returns file pointer to given file
