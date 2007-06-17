@@ -34,7 +34,7 @@
  * @author      Simone Carletti <weppos@weppos.net>
  * @copyright   2007 Simone Carletti
  * @license     http://creativecommons.org/licenses/LGPL/2.1/ LGPL License 2.1
- * @version     SVN: $Id:CsvIterator.php 3 2007-02-17 22:09:53Z weppos $
+ * @version     SVN: $Id$
  * @link
  */
 
@@ -64,7 +64,7 @@ class FileIterator implements Iterator
     const BUILD = '$Rev$';
 
     /** SVN ID */
-    const SVN_ID = '$Id:CsvIterator.php 3 2007-02-17 22:09:53Z weppos $';
+    const SVN_ID = '$Id$';
     /** SVN Revision */
     const SVN_REVISION = '$Rev$';
     /** SVN Date  */
