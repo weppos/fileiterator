@@ -29,8 +29,8 @@
  *
  * PHP versions 5
  *
- * @category    CsvIterator
- * @package     CsvIterator
+ * @category    Iterator
+ * @package     FileIterator
  * @author      Simone Carletti <weppos@weppos.net>
  * @copyright   2007 Simone Carletti
  * @license     http://creativecommons.org/licenses/LGPL/2.1/ LGPL License 2.1
@@ -43,8 +43,8 @@
  * FileIterator is an implementation of Iterator interface
  * for reading and parsing text files.
  *
- * @category    CsvIterator
- * @package     CsvIterator
+ * @category    Iterator
+ * @package     FileIterator
  * @author      Simone Carletti <weppos@weppos.net>
  * @copyright   2007 Simone Carletti
  * @license     http://creativecommons.org/licenses/LGPL/2.1/ LGPL License 2.1
