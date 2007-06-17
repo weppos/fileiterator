@@ -40,8 +40,8 @@
 
 
 /**
- * CsvIterator is an implementation of Iterator interface
- * for reading and parsing Comma Separated Value files.
+ * FileIterator is an implementation of Iterator interface
+ * for reading and parsing text files.
  *
  * @category    CsvIterator
  * @package     CsvIterator
@@ -61,14 +61,14 @@ class FileIterator implements Iterator
     /** Status */
     const STATUS = 'alpha';
     /** Build */
-    const BUILD = '$Rev: 7 $';
+    const BUILD = '$Rev$';
 
     /** SVN ID */
     const SVN_ID = '$Id:CsvIterator.php 3 2007-02-17 22:09:53Z weppos $';
     /** SVN Revision */
-    const SVN_REVISION = '$Rev: 7 $';
+    const SVN_REVISION = '$Rev$';
     /** SVN Date  */
-    const SVN_BUILD = '$Date: 2007-06-14 17:21:31 +0200 (Thu, 14 Jun 2007) $';
+    const SVN_BUILD = '$Date$';
 
     /** File row size */
     const ROW_SIZE = 4096;
