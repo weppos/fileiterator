@@ -35,7 +35,7 @@
  * @copyright   2007 Simone Carletti
  * @license     http://creativecommons.org/licenses/LGPL/2.1/ LGPL License 2.1
  * @version     SVN: $Id$
- * @link
+ * @link        http://www.simonecarletti.com/code/fileiterator/ FileIterator
  */
 
 
@@ -48,7 +48,7 @@
  * @author      Simone Carletti <weppos@weppos.net>
  * @copyright   2007 Simone Carletti
  * @license     http://creativecommons.org/licenses/LGPL/2.1/ LGPL License 2.1
- * @link
+ * @link        http://www.simonecarletti.com/code/fileiterator/ FileIterator
  */
 class FileIterator implements Iterator
 {
