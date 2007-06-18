@@ -179,6 +179,7 @@ class FileIterator implements Iterator
      * Implement Iterator::next()
      *
      * @return  void
+     * @throws  Exception
      * @see     Iterator::next()
      */
     public function next()
@@ -271,6 +272,7 @@ class FileIterator implements Iterator
      * @param   string      $source
      * @return  resource
      * @access  private
+     * @throws  Exception
      */
     private function _openPointer($source = null)
     {
