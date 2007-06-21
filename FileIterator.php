@@ -83,12 +83,20 @@ class FileIterator implements Iterator
     private $_verbose = false;
 
     /**
-     * File pointer.
+     * File pointer
      *
      * @var     resource
      * @access  private
      */
     private $_filePointer;
+
+    /**
+     * File data
+     *
+     * @var     array
+     * @access  private
+     */
+    private $_fileData;
 
     /**
      * Path to source file
@@ -97,14 +105,6 @@ class FileIterator implements Iterator
      * @access  private
      */
     private $_source;
-
-    /**
-     * File data.
-     *
-     * @var     array
-     * @access  private
-     */
-    private $_fileData;
 
     /**
      * Current element, which will be returned on each iteration.
@@ -116,7 +116,7 @@ class FileIterator implements Iterator
     private $_currentElement = null;
 
     /**
-     * Current line of file.
+     * Current line of file
      *
      * @var     int
      * @access  private
@@ -124,7 +124,7 @@ class FileIterator implements Iterator
     private $_currentIndex;
 
     /**
-     * Whether current element is valid or not.
+     * Whether current element is valid or not
      *
      * @var     bool
      * @access  private
@@ -134,6 +134,8 @@ class FileIterator implements Iterator
 
     /**
      * Class constructor
+     *
+     * @param   string $source
      */
     public function __construct($source)
     {
