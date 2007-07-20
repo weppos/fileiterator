@@ -34,7 +34,7 @@
  * @author      Simone Carletti <weppos@weppos.net>
  * @copyright   2007 Simone Carletti
  * @license     http://creativecommons.org/licenses/LGPL/2.1/ LGPL License 2.1
- * @version     SVN: $Id$
+ * @version     SVN: $Id:FileIterator.class.php 13 2007-07-20 07:57:26Z weppos $
  * @link        http://www.simonecarletti.com/code/fileiterator/ FileIterator
  */
 
@@ -57,18 +57,18 @@ class FileIterator implements Iterator
     /** Author */
     const AUTHOR = 'Simone Carletti <weppos@weppos.net>';
     /** Version */
-    const VERSION = '0.1.0';
+    const VERSION = '0.2.0';
     /** Status */
-    const STATUS = 'alpha';
+    const STATUS = 'beta';
     /** Build */
-    const BUILD = '$Rev$';
+    const BUILD = '$Rev:13 $';
 
     /** SVN ID */
-    const SVN_ID = '$Id$';
+    const SVN_ID = '$Id:FileIterator.class.php 13 2007-07-20 07:57:26Z weppos $';
     /** SVN Revision */
-    const SVN_REVISION = '$Rev$';
+    const SVN_REVISION = '$Rev:13 $';
     /** SVN Date  */
-    const SVN_BUILD = '$Date$';
+    const SVN_BUILD = '$Date:2007-07-20 09:57:26 +0200 (Fri, 20 Jul 2007) $';
 
     /** File row size */
     const ROW_SIZE = 4096;
