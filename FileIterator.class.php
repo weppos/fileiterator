@@ -91,14 +91,6 @@ class FileIterator implements Iterator
     private $_filePointer;
 
     /**
-     * File data
-     *
-     * @var     array
-     * @access  private
-     */
-    private $_fileData;
-
-    /**
      * Path to source file
      *
      * @var     string
