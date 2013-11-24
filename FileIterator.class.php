@@ -214,7 +214,7 @@ class FileIterator implements Iterator
      */
     public function rewind()
     {
-        $this->_rewindPointer($this->_source);
+        $this->_rewindPointer();
     }
 
     /**
